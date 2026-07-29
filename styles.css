@@ -486,3 +486,38 @@ img { max-width: 100%; display: block; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Verified credential links */
+.inline-credential-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56,215,193,.35);
+  transition: color .18s ease, border-color .18s ease;
+}
+.inline-credential-link:hover,
+.inline-credential-link:focus-visible {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+.credential-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.credential-actions .verified-chip { margin-top: 0; }
+.credential-verify {
+  color: #39726b;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(57,114,107,.28);
+  transition: color .18s ease, border-color .18s ease;
+}
+.credential-verify:hover,
+.credential-verify:focus-visible {
+  color: #174f49;
+  border-bottom-color: currentColor;
+}

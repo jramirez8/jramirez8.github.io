@@ -10,3 +10,6 @@ Push the contents of this directory to the root of `jramirez8/jramirez8.github.i
 ## Resume assets
 - `assets/Juan_Ramirez_Shipboard_IT_CV_EN.pdf`
 - `assets/Juan_Ramirez_CV_ES.pdf`
+
+## Verified credential
+- Cisco CCNA: Introduction to Networks: https://www.credly.com/badges/7a2c68de-2c7e-4177-b70e-a5927a57219d

@@ -11,6 +11,10 @@ const translations = {
     "en": "Verified",
     "es": "Verificada"
   },
+  "verify_credential": {
+    "en": "Verify credential ↗",
+    "es": "Ver credencial ↗"
+  },
   "footer_descriptor": {
     "en": "Field IT · Networking · Hardware · Electronics",
     "es": "IT de campo · Redes · Hardware · Electrónica"
