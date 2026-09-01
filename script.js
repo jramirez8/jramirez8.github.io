@@ -415,6 +415,21 @@ if (toggle) {
 
 // --- V3 enhancements -------------------------------------------------------
 const v3Translations = {
+  projects_nav: { en: 'Projects', es: 'Proyectos' },
+  projects_kicker: { en: '02 — Digital products', es: '02 — Productos digitales' },
+  projects_title: { en: 'Useful software.<br/>Built from real needs.', es: 'Software útil.<br/>Construido desde necesidades reales.' },
+  projects_intro: { en: 'Three end-to-end products where I combined product thinking, interface design and implementation. Each one starts with a concrete problem and turns it into a clear, usable experience.', es: 'Tres productos de punta a punta donde combiné pensamiento de producto, diseño de interfaces e implementación. Cada uno parte de un problema concreto y lo convierte en una experiencia clara y usable.' },
+  project_demo: { en: 'Interactive demo', es: 'Demo interactiva' },
+  project_prototype: { en: 'Product prototype', es: 'Prototipo de producto' },
+  project_ecommerce: { en: 'E-commerce prototype', es: 'Prototipo e-commerce' },
+  mediturnos_desc: { en: 'A multi-role healthcare scheduling platform for administrators, secretaries, professionals and patients. Includes agendas, availability, appointments, records and operational dashboards.', es: 'Una plataforma de turnos de salud con experiencias para administración, secretaría, profesionales y pacientes. Incluye agendas, disponibilidad, turnos, fichas y tableros operativos.' },
+  mediturnos_point_1: { en: 'Four complete role-based experiences', es: 'Cuatro experiencias completas según el rol' },
+  mediturnos_point_2: { en: 'Demo API with safe fictional data', es: 'API demo con datos ficticios y seguros' },
+  ciencias_desc: { en: 'An educational platform that organizes classes, subjects and study resources into a welcoming, straightforward experience for students.', es: 'Una plataforma educativa que organiza clases, materias y recursos de estudio en una experiencia cercana y directa para estudiantes.' },
+  policell_desc: { en: 'A bold bicycle storefront with product discovery, filters, sizing guidance, cart and simulated checkout, designed around a real local business.', es: 'Una tienda de bicicletas con mucha identidad, catálogo, filtros, guía de talles, carrito y checkout simulado, diseñada alrededor de un comercio local real.' },
+  view_product: { en: 'View product', es: 'Ver producto' },
+  view_code: { en: 'View code', es: 'Ver código' },
+  explore_project: { en: 'Explore project', es: 'Explorar proyecto' },
   proof_intro: { en: 'Field experience across', es: 'Experiencia de campo en' },
   proof_note: { en: 'Directly and through technology partners / subcontracting arrangements.', es: 'De forma directa y mediante socios tecnológicos / esquemas de subcontratación.' },
   open_label: { en: 'Currently open to', es: 'Actualmente disponible para' },
@@ -435,6 +450,11 @@ const v3Translations = {
   menu_close: { en: 'Close menu', es: 'Cerrar menú' }
 };
 Object.assign(translations, v3Translations);
+richTranslations.projects_title = { en: 'Useful software.<br/>Built from real needs.', es: 'Software útil.<br/>Construido desde necesidades reales.' };
+translations.t23 = { en: '03 — Selected field work', es: '03 — Trabajo de campo seleccionado' };
+translations.t34 = { en: '04 — Capabilities', es: '04 — Capacidades' };
+translations.t40 = { en: '05 — Experience', es: '05 — Experiencia' };
+translations.t50 = { en: '06 — Credentials', es: '06 — Credenciales' };
 // Override the main CV button now that the Spanish CV exists.
 translations.t7 = { en: 'Download resume', es: 'Descargar CV' };
 
@@ -505,7 +525,7 @@ if (copyButton) {
   });
 }
 
-const revealTargets = document.querySelectorAll('.section-title, .case-card, .skill-card, .timeline-item, .credential-list article, .contact-card');
+const revealTargets = document.querySelectorAll('.section-title, .project-card, .case-card, .skill-card, .timeline-item, .credential-list article, .contact-card');
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   revealTargets.forEach((el) => el.classList.add('reveal'));
   const observer = new IntersectionObserver((entries) => {
