@@ -445,7 +445,8 @@ const v3Translations = {
   case4_more: { en: 'Support across office and manufacturing locations covering mapped resources, printers, Wi-Fi, switching, Microsoft 365, backups, Android devices, racks and external-provider coordination.', es: 'Soporte en oficinas y planta cubriendo recursos mapeados, impresoras, Wi-Fi, switching, Microsoft 365, backups, dispositivos Android, racks y coordinación con proveedores externos.' },
   copy_email: { en: 'Copy email', es: 'Copiar email' },
   email_copied: { en: 'Email copied', es: 'Email copiado' },
-  resume_label: { en: 'Resume:', es: 'CV:' },
+  resume_label: { en: 'General CV:', es: 'CV general:' },
+  shipboard_label: { en: 'Shipboard:', es: 'Embarcado:' },
   menu_open: { en: 'Open menu', es: 'Abrir menú' },
   menu_close: { en: 'Close menu', es: 'Cerrar menú' }
 };
